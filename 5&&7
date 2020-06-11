@@ -15,8 +15,7 @@ class Test4{
 	
 	  }
 
-	System.out.println(" ");
-	System.out.println("5의 배수와 7의 배수의 갯수는: "+count);
+	System.out.println("\n"+"5의 배수와 7의 배수의 갯수는: "+count);
 
 	}
 }
