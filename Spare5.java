@@ -3,7 +3,7 @@ class Spare5{
 	public static void main(String[] args){
 		int num1,num2,num3,num4,num5,temp;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("ÀÓÀÇÀÇ ¼ıÀÚ 5°³¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ì„ì˜ì˜ ìˆ«ì 5ê°œë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 
 		num1=sc.nextInt();
 		num2=sc.nextInt();
@@ -37,9 +37,9 @@ class Spare5{
 		}
 
 
-		System.out.println("Á¤·ÄµÈ ¼ö´Â  "+num1+" "+num2+" "+num3+" "+num4+" "+num5);
+		System.out.println("ì •ë ¬ëœ ìˆ˜ëŠ”  "+num1+" "+num2+" "+num3+" "+num4+" "+num5);
 		
 
 	}
 }
-//16500
+
