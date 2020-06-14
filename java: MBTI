@@ -1,0 +1,311 @@
+import java.util.Scanner;
+public class mbti {
+	public static void main(String[] args) {
+		int j=0, p=0, e=0, i=0, s=0, n=0,t=0,f=0 ,answer=0;
+		Scanner sc= new Scanner(System.in);
+		
+		System.out.println("Well Come to MBTI WORLD!:D");
+		System.out.println("다음 상황에 당신의 행동을 선택해 주세요.");
+		
+			
+		while(true) {
+			System.out.println("1. 나 시험 망쳤어ㅠㅠ 속상해... ");
+			System.out.println("(1) 아니야 이번에 다 어려웠대ㅠㅠㅠ나도 이번에 망쳤어..");
+			System.out.println("(2) 어디서 틀렸는데? ");
+			answer=sc.nextInt();
+			if(answer==1) {
+				j++; 
+				break;
+			}
+			else if(answer==2) {
+				p++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+	
+		while(true) {
+			System.out.println("2. 나 오늘 너무 피곤해서 머리 안감고 드라이 샴푸 하고 왔어");
+			System.out.println("(1) 어제 늦게잤어? 많이 피곤해? 괜찮아??!");
+			System.out.println("(2) 드라이샴푸 좋아? 그냥 머리에 비비는거야?");
+			answer=sc.nextInt();
+			if(answer==1) {
+				j++; 
+				break;
+			}
+			else if(answer==2) {
+				p++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		while(true) {
+			System.out.println("3. 나 차 사고났어ㅠㅠ");
+			System.out.println("(1) 헉 괜찮아? 다친데 없어?");
+			System.out.println("(2) 보험은 들었어??");
+			answer=sc.nextInt();
+			if(answer==1) {
+				j++; 
+				break;
+			}
+			else if(answer==2) {
+				p++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		while(true) {
+			System.out.println("5. 나 너한테 화난것 있어..");
+			System.out.println("(1) 생각을 정리한다. ");
+			System.out.println("(2) 바로 물어본다. ");
+			answer=sc.nextInt();
+			if(answer==1) {
+				i++; 
+				break;
+			}
+			else if(answer==2) {
+				e++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		while(true) {
+			System.out.println("6. 말 없이 밥 약속에 친구를 데려온 후배");
+			System.out.println("(1) 같이 먹을....래....?"); //i
+			System.out.println("(2) 그래 같이 가자! "); //e
+			answer=sc.nextInt();
+			if(answer==1) {
+				i++; 
+				break;
+			}
+			else if(answer==2) {
+				e++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		while(true) {
+			System.out.println("7. 팀플을 하는데, 팀원들이 아무것도 하지않는다. 당신의 반응은?");
+			System.out.println("(1) 우선 자기 몫을 준비 한다."); //i
+			System.out.println("(2) 너네왜 아무것도 안해?라고 물어본다"); //e
+			answer=sc.nextInt();
+			if(answer==1) {
+				i++; 
+				break;
+			}
+			else if(answer==2) {
+				e++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		while(true) {
+			System.out.println("8. 동네에 범죄가 발생했을 때");
+			System.out.println("(1) 돌아다니지 말아야지!!! "); 
+			System.out.println("(2) 무슨일일까? "); 
+			answer=sc.nextInt();
+				if(answer==1){
+					s++; 
+					break;
+				}
+				else if(answer==2) {
+					n++;
+					break;
+				} 
+				else {
+					System.out.println("잘못 입력하셨습니다."); continue;
+				}
+			}
+		
+		while(true) {
+			System.out.println("9. 모르는 사람이 길을 물어본다. ");
+			System.out.println("(1) 섬세하게 알려준다.  "); 
+			System.out.println("(2) 적당히 손짓으로 알려준다. "); 
+			answer=sc.nextInt();
+			if(answer==1) {
+				s++; 
+				break;
+			}
+			else if(answer==2) {
+				n++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		while(true) {
+			System.out.println("10. 영화 어땠어? ");
+			System.out.println("(1) 줄거리를 길게 상세히 설명한다.  "); 
+			System.out.println("(2) 감독이 이런걸 의도했던것같다고 간략히 설명한다. "); 
+			answer=sc.nextInt();
+			if(answer==1) {
+				s++; 
+				break;
+			}
+			else if(answer==2) {
+				n++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		while(true) {
+		System.out.println("11. 당신이 여행을 준비할 때 ");
+		System.out.println("(1) 구체적으로 계획을 짠다.  "); 
+		System.out.println("(2) 비행기! 숙소! 끝! "); 
+			answer=sc.nextInt();
+			if(answer==1) {
+				j++; 
+				break;
+			}
+			else if(answer==2) {
+				p++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		while(true) {
+			System.out.println("12. 당신이 오늘 목표한 만큼 공부를 못했다면");
+			System.out.println("(1) 밤을 새서라도 끝낸다.  "); 
+			System.out.println("(2) 내일의 나를 믿는다. "); 
+			answer=sc.nextInt();
+			if(answer==1){
+				j++; 
+				break;
+			}
+			else if(answer==2) {
+				p++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		while(true) {
+			System.out.println("13. 논문100개를 읽어오는 과제가 나왔다. ");
+			System.out.println("(1) 어떤 논문을 읽을지, 키워드는 무엇으로 할지, 상세히 계획한다 "); 
+			System.out.println("(2) 우선 논문을 검색부터 해본다. "); 
+			answer=sc.nextInt();
+			if(answer==1){
+				j++; 
+				break;
+			}
+			else if(answer==2) {
+				p++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		
+		while(true) {
+			System.out.println("14. 당신이 더욱 중시하는것은?");
+			System.out.println("(1) 결과  "); 
+			System.out.println("(2) 과정 "); 
+			answer=sc.nextInt();
+			if(answer==1) {
+				t++; 
+				break;
+			}
+			else if(answer==2) {
+				f++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		while(true) {
+			System.out.println("15. 얘들아ㅠㅠ 취준 너무 어렵다...");
+			System.out.println("(1) 요즘 뭐 준비하는데? "); 
+			System.out.println("(2) 그치그치ㅠㅠ 진짜 살기 왤케 어렵냐 "); 
+			answer=sc.nextInt();
+			if(answer==1) {
+				t++; 
+				break;
+			}
+			else if(answer==2) {
+				f++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		while(true) {
+			System.out.println("16. 나 시험 떨어졌어...ㅡㅡ");
+			System.out.println("(1) 무슨 시험? 어려웠어? "); 
+			System.out.println("(2) 속상하겠다ㅠㅠ 일단 너무 수고했어! 맛있는거 먹으러갈래?"); 
+			answer=sc.nextInt();
+			if(answer==1){
+				t++; 
+				break;
+			}
+			else if(answer==2) {
+				f++;
+				break;
+			} 
+			else {
+				System.out.println("잘못 입력하셨습니다."); continue;
+			}
+		}
+		
+		
+		System.out.println("수고하셨습니다.");
+		System.out.println("당신의 mbti를 계산중 입니다..");
+		System.out.println("----------------------------");
+		
+		if(e<i)
+			System.out.print("당신의 mbti는 i");
+		if(i<e)
+			System.out.print("당신의 mbti는 e");
+		
+		if(s<n)
+			System.out.print("n");
+		if(n<s)
+			System.out.print("s");
+		
+		if(t<f)
+			System.out.print("f");
+		if(f<t)
+			System.out.print("t");
+		
+		if(p<j)
+			System.out.print("j 입니다.");
+		if(j<p)
+			System.out.print("p 입니다.");
+		
+
+		
+	
+	}
+}
