@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Test2{
+	public static void main(String[] args){
+		int num;
+		Scanner sc= new Scanner(System.in);
+		System.out.println("구구단을 입력하세요.");	
+		num=sc.nextInt();
+		
+		timestable(num); //num을 넘겨줘-> 실행값을 받아와
+
+	}
+	public static void timestable(int num){ //num 받아와 (이름 달라도돼)
+		int result=0;
+		//실행값을 넘겨줘
+		for(int i=num;i<=num;i++){
+			for(int j=1;j<=9;j++){
+				result= i*j;
+				System.out.print(i+ "*" + j + "=" +result+"\n");
+			
+			}
+		}
+
+	}
+
+}
